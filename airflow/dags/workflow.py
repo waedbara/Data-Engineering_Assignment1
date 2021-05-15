@@ -7,6 +7,7 @@ from airflow.models import Variable
 import pandas as pd
 import os
 import json
+import subprocess
 
 try:
     from faker import Faker
