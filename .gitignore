@@ -1,0 +1,3 @@
+airflow/db /
+airflow/logs /
+airflow/pgadmin /

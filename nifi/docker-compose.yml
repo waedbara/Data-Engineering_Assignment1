@@ -1,0 +1,14 @@
+version: "3.1"
+
+services:
+  nifi:
+    image: apache/nifi:latest
+    container_name: psut_nifi
+    ports:
+      - "8080:8080"
+    networks:
+      - localnet
+
+networks:
+  localnet:
+    attachable: true
