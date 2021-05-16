@@ -1,4 +1,4 @@
-# Create db, logs, plugins, import directories
+# Create dags logs plugins pgadmin postgres-db-volume mongo-db-volume directories
 
 > mkdir dags logs plugins pgadmin postgres-db-volume mongo-db-volume
 
